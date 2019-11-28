@@ -482,7 +482,7 @@ namespace WindowsForm_Hello_Word
             string jsone = JsonConvert.SerializeObject(Mohamad);
             name.Write_ToFile(jsone);
         }
-
+        //----
         private void Form1_Load(object sender, EventArgs e)
         {
             ClassCach name = new ClassCach("cash.json", "Name");
